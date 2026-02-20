@@ -1,12 +1,60 @@
 {
   "customers": [
-    { "id": 1, "name": "erlis", "phone": "08123456789", "email": "erlis@mail.com", "password": "erlis", "balance": 150000 },
-    { "id": 2, "name": "rizqiyani", "phone": "08129876543", "email": "rizqiyani@mail.com", "password": "rizqiyani", "balance": 80000 }
+    {
+      "id": 1,
+      "name": "erlis",
+      "phone": "08123456789",
+      "email": "erlis@mail.com",
+      "password": "erlis",
+      "balance": 30000
+    },
+    {
+      "id": 2,
+      "name": "rizqiyani",
+      "phone": "08129876543",
+      "email": "rizqiyani@mail.com",
+      "password": "rizqiyani",
+      "balance": 80000
+    }
   ],
   "packages": [
-    { "id": 1, "provider": "Telkomsel", "name": "OMG 10GB", "quotaGb": 10, "validDays": 30, "price": 75000, "tag": "Best Seller" },
-    { "id": 2, "provider": "XL", "name": "Xtra Combo 15GB", "quotaGb": 15, "validDays": 30, "price": 90000, "tag": "Hemat" },
-    { "id": 3, "provider": "Indosat", "name": "Freedom 25GB", "quotaGb": 25, "validDays": 30, "price": 120000, "tag": "Kuota Besar" }
+    {
+      "id": 1,
+      "provider": "Telkomsel",
+      "name": "OMG 10GB",
+      "quotaGb": 10,
+      "validDays": 30,
+      "price": 75000,
+      "tag": "Best Seller"
+    },
+    {
+      "id": 2,
+      "provider": "XL",
+      "name": "Xtra Combo 15GB",
+      "quotaGb": 15,
+      "validDays": 30,
+      "price": 90000,
+      "tag": "Hemat"
+    },
+    {
+      "id": 3,
+      "provider": "Indosat",
+      "name": "Freedom 25GB",
+      "quotaGb": 25,
+      "validDays": 30,
+      "price": 120000,
+      "tag": "Kuota Besar"
+    }
   ],
-  "transactions": []
+  "transactions": [
+    {
+      "customerId": 1,
+      "packageId": 3,
+      "phoneNumber": "08123456789",
+      "total": 120000,
+      "status": "SUCCESS",
+      "createdAt": "2026-02-20T05:17:01.925Z",
+      "id": 1
+    }
+  ]
 }
