@@ -28,6 +28,15 @@
       "tag": "Best Seller"
     },
     {
+      "id": 1,
+      "provider": "Telkomsel",
+      "name": "Super Seru",
+      "quotaGb": 8,
+      "validDays": 30,
+      "price": 60000,
+      "tag": "Hemat"
+    },
+    {
       "id": 2,
       "provider": "XL",
       "name": "Xtra Combo 15GB",
@@ -35,6 +44,15 @@
       "validDays": 30,
       "price": 90000,
       "tag": "Hemat"
+    },
+    {
+      "id": 2,
+      "provider": "XL",
+      "name": "Xtra Combo 20GB",
+      "quotaGb": 20,
+      "validDays": 30,
+      "price": 100000,
+      "tag": "Best Seller"
     },
     {
       "id": 3,
